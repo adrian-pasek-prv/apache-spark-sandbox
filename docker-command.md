@@ -1,0 +1,1 @@
+docker run -it -p 4040:4040 -v ./data:/opt/spark/data -v ./scripts:/opt/spark/scripts spark:3.5.0-bundle
