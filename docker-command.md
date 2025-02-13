@@ -1,1 +1,1 @@
-docker run -it -p 4040:4040 -v ./src:/opt/spark/src spark:3.5.0-bundle bash
+docker run -it -p 4040:4040 -v ./src:/opt/spark/work-dir/src spark:3.5.0-bundle bash
