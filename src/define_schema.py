@@ -41,3 +41,5 @@ if __name__ == "__main__":
    # show heavy hitters
    blogs_df.withColumn("Big Hitters", (expr("Hits > 10000"))).show()
    print(blogs_df.schema)
+   # stop SparkSession
+   spark.stop()
