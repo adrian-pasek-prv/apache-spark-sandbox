@@ -7,7 +7,7 @@ spark = (SparkSession
     .getOrCreate())
 
 # Path to data set
-csv_file = "/opt/spark/src/data/departuredelays.csv"
+csv_file = "/opt/spark/src/data/flights/departuredelays.csv"
 
 # Read and create a temporary view
 # Infer schema (note that for larger files you
